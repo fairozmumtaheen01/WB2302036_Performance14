@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+    background: cyan;
+    opacity: 0.3;
+    margin-top: :5px;
+    display: inline-block;
+    border-radius:0 10px 0 10px;
+    padding: 10px;
+    border:2px solid purple;
+}
+a:link{
+ color:green;   
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
+a:active{
+    background-color: gray;
+}
+
+.list1{
+    list-style-type:square;
+}
+
+.list2{
+    list-style-type: disc;
+    list-style-position: outside;
+    margin:10px;
+    padding: 0;
+}
+.list3{
+    background-color:slateblue;
+    padding: 5px;
+    margin:5px;
+}
+table{
+    width:50%;
+}
+table,th,td{
+    border: 2px solid purple ;
+    border-collapse: collapse;
+}
+th{
+    height:50px;
+}
+td{
+    height:50px;
+    text-align: center;
+    vertical-align: top;
+}
+tr:nth-child(even){
+   background: gray; 
+}
